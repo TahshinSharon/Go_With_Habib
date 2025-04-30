@@ -1,4 +1,4 @@
-package lecture
+package main
 
 import "fmt"
 
@@ -16,7 +16,7 @@ func call25() {
 	add(p, a)
 }
 
-func Lec25() {
+func main() {
 	call25()
 	fmt.Println(a)
 }

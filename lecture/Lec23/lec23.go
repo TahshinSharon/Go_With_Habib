@@ -12,7 +12,7 @@
 		 iii. both i,ii
 */
 
-package lecture
+package main
 
 import "fmt"
 
@@ -33,7 +33,7 @@ func call() func(x int, y int) {
 	return add
 }
 
-func Lec23() {
+func main() {
 	m := processoperation(2, 5, add) //argument => 2,5
 
 	m(5, 6)

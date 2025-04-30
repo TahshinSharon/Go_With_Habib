@@ -1,4 +1,4 @@
-package lecture
+package main
 
 import "fmt"
 
@@ -7,7 +7,7 @@ type user struct {
 	Age  int
 }
 
-func Lec27() {
+func main() {
 	var user1 user
 	user1 = user{
 		Name: "Tahshin",
