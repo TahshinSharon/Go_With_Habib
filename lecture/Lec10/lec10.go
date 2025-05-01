@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// function class
 func add(num1 int, num2 int) {
 	sum := num1 + num2
 
