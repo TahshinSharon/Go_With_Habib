@@ -1,3 +1,3 @@
-module github.com/abutahshin/Go_with_Habib
+module github.com/thashinsharon/Go_with_Habib
 
 go 1.23.5
