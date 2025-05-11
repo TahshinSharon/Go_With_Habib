@@ -2,6 +2,20 @@ package main
 
 import "fmt"
 
+var arr2 = [3]string{"I", "Love", "You"}
+
+func main() {
+
+	arr := [2]int{3, 6}
+	fmt.Println(arr)
+
+	fmt.Println(arr2[1])
+
+}
+func init() {
+	fmt.Println("*****Welcome To Lecture 29*****")
+}
+
 /*
     Phases:
        1.Compilation Phase ()
@@ -14,11 +28,14 @@ go build lec25.go => compile it => create ./lec25 file but don't run the binary 
 ============= Compilation Phase ===========
 
 ***** Code Segement****
-   user
+   init==func inti{...}
 
-   main
+   main= func main(){...}
+
+
 
 ***** Data Segment ****
+   arr2
 */
 
 /*
@@ -33,24 +50,3 @@ go build lec25.go => compile it => create ./lec25 file but don't run the binary 
 		 00110101010110111
 		 10110011010111001
 */
-type user struct {
-	Name string
-	Age  int
-}
-
-func main() {
-	var user1 user //user1 is user  type variable
-	user1 = user{
-		Name: "Tahshin",
-		Age:  26,
-	}
-	fmt.Println("User1 Name: ", user1.Name)
-	fmt.Println("User1 Age: ", user1.Age)
-
-	user2 := user{ // user type instance
-		Name: "Sharon",
-		Age:  36,
-	}
-	fmt.Println("User2 Name: ", user2.Name)
-	fmt.Println("User2 Age: ", user2.Age)
-}
