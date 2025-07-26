@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// ********* Defer ************
 func calculate() (result int) {
 	fmt.Println("First", result)
 	show := func() {
