@@ -5,7 +5,7 @@ package main
  */
 
 import (
-	"github.com/thashinsharon/Go_with_Habib/Lec51/cmd"
+	"github.com/thashinsharon/Go_with_Habib/Lec52/cmd"
 )
 
 func main() {
