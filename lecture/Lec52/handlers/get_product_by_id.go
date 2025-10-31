@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/thashinsharon/Go_with_Habib/Lec51/database"
-	"github.com/thashinsharon/Go_with_Habib/Lec51/util"
+	"github.com/thashinsharon/Go_with_Habib/Lec52/database"
+	"github.com/thashinsharon/Go_with_Habib/Lec52/util"
 )
 
 func GetProductById(w http.ResponseWriter, r *http.Request) {
