@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/thashinsharon/Go_with_Habib/Lec51/middleware"
-	"github.com/thashinsharon/Go_with_Habib/Lec51/util"
+	"github.com/thashinsharon/Go_with_Habib/Lec52/middleware"
+	"github.com/thashinsharon/Go_with_Habib/Lec52/util"
 )
 
 func Serve() {
